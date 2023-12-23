@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type">
+        <item >湿垃圾</item>
+        <item >干垃圾</item>
+        <item >可回收垃圾</item>
+        <item >有害垃圾</item>
+    </string-array>
+</resources>

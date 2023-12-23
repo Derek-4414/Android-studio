@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#09C6A0</color><!--主题色-->
+    <color name="colorPrimaryBlue">#09C6A0</color><!--主题色-->
+    <color name="colorPrimaryTint">#09C6A0</color><!--主题浅色-->
+    <color name="colorPrimaryDark">#09C6A0</color><!--主题深色-->
+    <color name="colorAccent">#09C6A0</color>
+    <color name="colorRed">#09C6A0</color>
+    <color name="colorBlack">#000000</color><!--黑色-->
+    <color name="colorWhite">#ffffff</color><!--白色-->
+    <color name="colorGrayDark">#BCB7B7</color><!--深灰色-->
+    <color name="colorGray">#cccccc</color><!--灰色-->
+    <color name="colorGrayTint">#52CCCCCC</color><!--浅灰色-->
+    <color name="colorGrayTints">#2DCCCCCC</color><!--更浅的灰色-->
+
+        <color name="black">#FF000000</color>
+        <color name="white">#FFFFFFFF</color>
+        <color name="purple">#8692f7</color>
+        <color name="blue">#b6cef5</color>
+
+        <color name="pruple_200">#FFBB86FC</color>
+        <color name="purple_500">#FF6200EE</color>
+        <color name="purple_700">#FF3700B3</color>
+        <color name="teal_200">#FF03DAC5</color>
+        <color name="teal_700">#FF018786</color>
+        <color name="lavender">#B692f7</color>
+        <color name="green_test">#AFC3A8</color>
+        <color name="blue_test">#A6D3F2</color>
+        <color name="grey_bg">#DCDCDC</color>
+</resources>

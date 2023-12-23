@@ -1,0 +1,62 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.garbagesorting'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.example.garbagesorting"
+        minSdk 24
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.6.0'
+    //glide 图片转换框架
+    implementation 'jp.wasabeef:glide-transformations:3.3.0'
+    //glide图片加载框架
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    //recyclerview
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.code.gson:gson:2.7'
+    //网络请求
+    implementation 'com.squareup.okhttp3:okhttp:4.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.4.0'
+    implementation 'com.zhy:okhttputils:2.0.0' //glide图片加载框架
+    //banner轮播框架
+    implementation 'com.youth.banner:banner:1.4.10'
+
+    //下拉刷新，上拉加载
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.1'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.1'
+}
